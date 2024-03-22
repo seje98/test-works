@@ -1,0 +1,28 @@
+@mixin bgSkyHover {
+	background: $headerSky;
+	transition: all 0.15s ease-in-out;
+	&:hover {
+		background: $headerSkyHover;
+	}
+}
+
+@mixin bgBlueHover {
+	background: $blue;
+	transition: all 0.15s ease-in-out;
+	&:hover {
+		background: $blueHover;
+	}
+}
+
+@mixin bgWhiteHover {
+	background: $white;
+	transition: all 0.15s ease-in-out;
+	&:hover {
+		background: $whiteHover;
+	}
+}
+
+@mixin font($font-weight, $font-size, $line-height, $font-family) {
+	font: $font-weight $font-size $font-family;
+	line-height: $line-height;
+}

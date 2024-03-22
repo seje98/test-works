@@ -1,0 +1,7 @@
+@mixin shadowMain($X, $Y, $blur, $opacity) {
+  box-shadow: $X $Y $blur rgb(33,45,85,$opacity);
+}
+
+@mixin transition {
+  transition: all .15s ease-in-out;
+}
